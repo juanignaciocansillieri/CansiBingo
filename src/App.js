@@ -1,8 +1,11 @@
 import './App.css';
+import { RightPanel, LeftPanel } from './components';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      <LeftPanel />
+      <RightPanel />
     </div>
   );
 }
