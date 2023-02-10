@@ -8,7 +8,6 @@
     background-color: rgba(253, 255, 255, 0.637);
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 1rem;
     border-radius: 50px;
     padding: 1rem;
 }
@@ -22,13 +21,13 @@
 
     &>span {
         font-size: 1.5em;
-        border-radius: 50%;
         text-align: center;
         width: 1.5em;
         padding: 5px;
         border-radius: 100%;
         font-weight: bold;
 
+        background-color: rgb(115, 25, 167);
     }
 }
 
@@ -36,6 +35,4 @@
     transform: rotate(1080deg);
 }
 
-.activeNum {
-    background-color: rgb(115, 25, 167);
-}
+.activeNum {}
