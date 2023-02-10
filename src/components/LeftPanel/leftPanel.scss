@@ -1,0 +1,91 @@
+.panelLeftContainer {
+    display: grid;
+    grid-template-areas:
+        'one'
+        'one'
+        'one'
+        'two'
+        'three';
+    gap: 5.5rem;
+    padding: 1.5rem;
+    place-content: center;
+    margin-left: 1rem;
+
+    &>:nth-child(1) {
+        grid-area: one;
+    }
+
+    &>:nth-child(2) {
+        grid-area: two;
+    }
+
+    &>:nth-child(3) {
+        grid-area: three;
+    }
+}
+
+.currentBall {
+    background-color: rgba(253, 255, 255, 0.637);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    &>img {
+        position: relative;
+    }
+
+    &>h1 {
+        position: absolute;
+        font-size: 5em;
+        color: #000;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+
+.previousBalls {
+    background-color: rgba(253, 255, 255, 0.637);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &>button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.7em 1.7em;
+        border-radius: 50px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        width: 300px;
+        height: 75px;
+        color: #ffffff;
+        background-color: #7319a7;
+        box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+        text-align: center;
+        position: relative;
+        font-size: 1.5em;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #5a088a
+        }
+
+        &:active {
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    }
+}
