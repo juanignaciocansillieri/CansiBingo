@@ -1,0 +1,41 @@
+.panelRightContainer {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.numContainer {
+    background-color: rgba(253, 255, 255, 0.637);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1rem;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1em sans-serif;
+    color: rgb(243, 241, 239);
+
+    &>span {
+        font-size: 1.5em;
+        border-radius: 50%;
+        text-align: center;
+        width: 1.5em;
+        padding: 5px;
+        border-radius: 100%;
+        font-weight: bold;
+
+    }
+}
+
+.ballRotate {
+    transform: rotate(1080deg);
+}
+
+.activeNum {
+    background-color: rgb(115, 25, 167);
+}
