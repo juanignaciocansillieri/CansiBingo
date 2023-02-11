@@ -63,7 +63,7 @@ const LeftPanel = () => {
   return (
     <div className='panelLeftContainer'>
       <div className='currentBall span-3-grid-column' >
-        <img src={imgCurrentBall} width='85%' alt="Current Ball" style={{ transform: rotate, transition: 'transform 1s' }} />
+        <img src={imgCurrentBall} width='80%' alt="Current Ball" style={{ transform: rotate, transition: 'transform 1s' }} />
         <h1 style={{ transform: rotate, transition: 'transform 1s' }}>{currentNumber}</h1>
       </div>
       <div className='previousBalls'>
