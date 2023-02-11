@@ -27,7 +27,6 @@
         border-radius: 100%;
         font-weight: bold;
 
-        background-color: rgb(115, 25, 167);
     }
 }
 
@@ -35,4 +34,6 @@
     transform: rotate(1080deg);
 }
 
-.activeNum {}
+.activeNum {
+    background-color: rgb(115, 25, 167);
+}
