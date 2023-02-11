@@ -41,8 +41,6 @@ const LeftPanel = () => {
     setAngle(angle);
   };
   const startBingo = () => {
-    console.log(bowler);
-    console.log(currentNumber);
     setIsGameStarted(true);
     setAntepenultimate(penultimateNumber);
     setPenultimateNumber(currentNumber);
