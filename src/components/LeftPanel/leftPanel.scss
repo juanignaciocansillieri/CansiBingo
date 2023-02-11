@@ -6,7 +6,7 @@
         'one'
         'two'
         'three';
-    gap: 5.5rem;
+    gap: 4.5rem;
     padding: 1.5rem;
     place-content: center;
     margin-left: 1rem;
@@ -33,13 +33,12 @@
     padding: 10px;
 
     &>img {
-        max-width: 250px;
         position: relative;
     }
 
     &>h1 {
         position: absolute;
-        font-size: 4em;
+        font-size: 4.5em;
         color: #000;
         font-weight: bold;
         margin: auto;
@@ -58,34 +57,51 @@
 .button {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.startButton {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0.7em 1.8em;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 300px;
+    color: #ffffff;
+    background-color: #7319a7;
+    box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+    text-align: center;
+    position: relative;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-right: 5px;
 
-    &>button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.7em 1.7em;
-        border-radius: 50px;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: bold;
-        width: 300px;
-        color: #ffffff;
-        background-color: #7319a7;
-        box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
-        text-align: center;
-        position: relative;
-        font-size: 1.5em;
-        cursor: pointer;
-
-        &:hover {
-            background-color: #5a088a
-        }
-
-        &:active {
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
-        }
+    &:hover {
+        background-color: #5a088a
     }
+
+    &:active {
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+}
+
+.resetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 1em 0.4em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #6a1387;
+    cursor: pointer;
 }
