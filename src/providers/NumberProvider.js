@@ -8,9 +8,9 @@ export const CurrentNumberProvider = ({ children }) => {
 
   return (
     <numberContext.Provider value={currentNumber}>
-        <numberToggleContext.Provider value={setCurrentNumber}>
-            {children}
-        </numberToggleContext.Provider>
+      <numberToggleContext.Provider value={setCurrentNumber}>
+        {children}
+      </numberToggleContext.Provider>
     </numberContext.Provider>
   );
 };
