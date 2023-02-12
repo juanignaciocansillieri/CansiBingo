@@ -57,11 +57,14 @@ const LeftPanel = () => {
     generateRandomNumbers();
   }, []);
   useEffect(() => {
-    if (!isGameStarted) resetGame();
+    if (!isGameStarted) {
+      resetGame();
+    }
   }, [isGameStarted]);
 
   return (
     <div className='panelLeftContainer'>
+
       <div className='currentBall span-3-grid-column' >
         <img src={imgCurrentBall} width='80%' alt="Current Ball" style={{ transform: rotate, transition: 'transform 1s' }} />
         <h1 style={{ transform: rotate, transition: 'transform 1s' }}>{currentNumber}</h1>
@@ -72,8 +75,8 @@ const LeftPanel = () => {
         <Ball number={antepenultimateNumber} />
       </div>
       <div className='button'>
-        <button className='startButton' onClick={startBingo}>{`${isGameStarted ? 'Siguiente Número' : 'Iniciar juego'}`}</button>
-        <button className='resetButton' onClick={() => setIsGameStarted(false)}>↪</button>
+        <button className="startButton" onClick={startBingo}>{`${isGameStarted ? 'Girar' : 'Iniciar juego'}`}</button>
+        <button className='resetButton' onClick={() => setIsGameStarted(false)}>↻</button>
       </div>
     </div>
   );

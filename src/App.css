@@ -7,7 +7,7 @@
     color: #ffff;
     background-size: cover;
     display: grid;
-    grid-template-columns: 34% 66%;
+    grid-template-columns: 30% 70%;
     overflow: hidden;
 
   }
