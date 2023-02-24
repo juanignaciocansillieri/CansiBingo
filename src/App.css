@@ -7,8 +7,15 @@
     color: #ffff;
     background-size: cover;
     display: grid;
-    grid-template-columns: 30% 70%;
     overflow: hidden;
-
+    grid-template-columns: 30% 70%;
+    
   }
   
+  
+@media screen and (max-width: 902px) {
+  .App {
+  grid-template-rows: 44% 56%;
+  grid-template-columns: 1fr;
+  }
+}

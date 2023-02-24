@@ -37,3 +37,9 @@
 .activeNum {
     background-color: rgb(115, 25, 167);
 }
+
+@media screen and (max-width: 902px) {
+    .num>span {
+        font-size: 0.9em;
+    }
+}

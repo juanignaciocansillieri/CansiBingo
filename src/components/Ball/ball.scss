@@ -16,3 +16,9 @@ h1 {
     font-size: 1.8em;
     margin: auto;
 }
+
+@media screen and (max-width: 902px) {
+    h1 {
+        font-size: 1.3em;
+    }
+}
