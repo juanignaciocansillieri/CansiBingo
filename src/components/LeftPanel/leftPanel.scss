@@ -1,11 +1,5 @@
 .panelLeftContainer {
-    // display: grid;
-    // grid-template-areas:
-    //     'one'
-    //     'one'
-    //     'two'
-    //     'three';
-    // gap: 4.5rem;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,17 +7,6 @@
     padding: 1.5rem;
     margin-left: 1rem;
 
-    // &>:nth-child(1) {
-    //     grid-area: one;
-    // }
-
-    // &>:nth-child(2) {
-    //     grid-area: two;
-    // }
-
-    // &>:nth-child(3) {
-    //     grid-area: three;
-    // }
 }
 
 .currentBall {
@@ -125,5 +108,32 @@
     &:active {
         box-shadow: 0 5px #666;
         transform: translateY(4px);
+    }
+}
+
+
+@media screen and (max-width: 902px) {
+    .panelLeftContainer {
+        gap: 10px;
+        margin-top: 1.2em;
+    }
+
+    .currentBall {
+        max-width: 200px;
+        min-width: 0;
+
+        &>h1 {
+            font-size: 3.3em;
+        }
+    }
+
+    .previousBalls {
+        max-width: 230px;
+        min-width: 0;
+    }
+
+    .startButton {
+        max-width: 14.5em;
+
     }
 }
