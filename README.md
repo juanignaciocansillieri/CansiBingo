@@ -1,70 +1,27 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#CANSIBINGO
+Este es un proyecto que consiste en un bolillero virtual para jugar al bingo. Puedes acceder a él a través de la siguiente URL: https://cansibingo.netlify.app/
 
-## Available Scripts
+#Tecnologías utilizadas
+Este proyecto fue creado utilizando las siguientes tecnologías:
 
-In the project directory, you can run:
+React JS
+SASS
 
-### `npm start`
+#Cómo usar el bolillero
+Para usar el bolillero, simplemente ingresa a la URL mencionada anteriormente. Verás una pantalla con un botón que dice "Iniciar Juego". Haz clic en ese botón para que se muestre una bolilla con un número. Cada vez que hagas clic en el botón, se mostrará una bolilla diferente, hasta que se hayan mostrado todas las bolillas del juego.
+A su derecha hay un botón que se utiliza para reiniciar el bolillero una vez finalizado su partida.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Contribuciones
+Este proyecto está abierto a contribuciones. Si deseas hacer una contribución, por favor sigue los siguientes pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Haz un fork del proyecto.
+. Crea una nueva rama (git checkout -b nueva-rama)
+. Realiza tus cambios y haz commits (git commit -am 'Descripción del cambio')
+. Haz push de la rama (git push origin nueva-rama)
+. Abre un Pull Request
 
-### `npm test`
+#Licencia
+Este proyecto está bajo la Licencia MIT. Para más información, por favor revisa el archivo LICENSE.md.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por utilizar el bolillero de bingo!
