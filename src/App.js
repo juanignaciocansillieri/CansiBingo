@@ -1,5 +1,5 @@
 import './App.css';
-import { RightPanel, LeftPanel } from './components';
+// import { RightPanel, LeftPanel } from './components';
 
 function App() {
   return (
