@@ -4,8 +4,9 @@ import { RightPanel, LeftPanel } from './components';
 function App() {
   return (
     <div className='App'>
-      <LeftPanel />
-      <RightPanel />
+    <h1>PÁGINA DESHABILITADA POR LA IRRESPONSABILIDAD POLÍTICA DE VALERIA Y SU PACTO CON MASSA</h1>
+      {/* <LeftPanel /> */}
+      {/* <RightPanel /> */}
     </div>
   );
 }

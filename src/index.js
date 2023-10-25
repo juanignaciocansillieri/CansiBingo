@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { CurrentNumberProvider } from './providers/NumberProvider';
 import { GameStartedProvider } from './providers/GameStartedProvider';
 
@@ -16,4 +15,3 @@ root.render(
     </CurrentNumberProvider>
   </React.StrictMode>,
 );
-reportWebVitals();
