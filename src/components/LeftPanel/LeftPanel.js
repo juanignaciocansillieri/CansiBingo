@@ -42,10 +42,10 @@ const LeftPanel = () => {
     setAngle(angle);
   };
 
-  const playNumberAudio = (number) => {
-    const audio = new Audio(require(`../../assets/audio/${number}.m4a`));
-    audio.play();
-  };
+  // const playNumberAudio = (number) => {
+  //   const audio = new Audio(require(`../../assets/audio/${number}.m4a`));
+  //   audio.play();
+  // };
   const startBingo = () => {
     setIsGameStarted(true);
     setAntepenultimate(penultimateNumber);
@@ -54,7 +54,7 @@ const LeftPanel = () => {
     setCurrentNumber(number);
     setAngle(1080 + angle);
     setCounter(counter + 1);
-    playNumberAudio(currentNumber);
+    // playNumberAudio(currentNumber);
 
     if (counter === 91) {
       resetGame();
