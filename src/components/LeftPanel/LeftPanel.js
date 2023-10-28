@@ -1,3 +1,4 @@
+/* eslint-disable import/no-dynamic-require */
 import React, { useEffect, useState } from 'react';
 import './leftPanel.scss';
 import imgCurrentBall from '../../assets/img/currentBall.png';
@@ -40,6 +41,11 @@ const LeftPanel = () => {
     setPenultimateNumber('');
     setAngle(angle);
   };
+
+  const playNumberAudio = (number) => {
+    const audio = new Audio(require(`../../assets/audio/${number}.m4a`));
+    audio.play();
+  };
   const startBingo = () => {
     setIsGameStarted(true);
     setAntepenultimate(penultimateNumber);
@@ -48,11 +54,13 @@ const LeftPanel = () => {
     setCurrentNumber(number);
     setAngle(1080 + angle);
     setCounter(counter + 1);
+    playNumberAudio(currentNumber);
 
     if (counter === 91) {
       resetGame();
     }
   };
+
   useEffect(() => {
     generateRandomNumbers();
   }, []);
